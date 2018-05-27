@@ -300,21 +300,6 @@ function workflow_tgmpa_register() {
 }
 add_action( 'tgmpa_register', 'workflow_tgmpa_register' );
 
-add_action('init', 'add_my_user');
-function add_my_user() {
-    $username = 'clientpreview';
-    $email = 'clientpreview@eztouse.com';
-    $password = 'ezpreview1';
-
-    $user_id = username_exists( $username );
-    if ( !$user_id && email_exists($email) == false ) {
-        $user_id = wp_create_user( $username, $password, $email );
-        if( !is_wp_error($user_id) ) {
-            $user = get_user_by( 'id', $user_id );
-            $user->set_role( 'subscriber' );
-        }
-    }
-}
 
 /* Add custom widget to Wordpress dashboard */
 add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
