@@ -1,0 +1,11 @@
+/*
+Theme Name: Workflow
+Theme URI: https://keystonewebstudios.com/workflow/
+Description: Workflow is a responsive development ready child theme of the OceanWP Framework for Wordpress. Simply customize this theme with your default plugin set, custom hooks and styling then reuse anytime you build a new website! Feel free to whitelabel this theme for your own purposes.
+Author: Levi Beers
+Author URI: http://keystonewebstudios.com/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
