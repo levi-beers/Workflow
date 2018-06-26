@@ -50,15 +50,6 @@ function workflow_tgmpa_register() {
             'force_activation'  => false,
         ),
         array(
-            'name'              => '(OceanWP) Hooks',
-            'slug'              => 'ocean-hooks',
-            'version'           => '1.0.6',
-            'description'       => 'Add HTML or PHP code before or after any area of your wordpress template.',
-            'source'            => get_stylesheet_directory() . '/lib/plugins/ocean-hooks.zip',
-            'required'          => false,
-            'force_activation'  => false,
-        ),
-        array(
             'name'				=> 'Elementor',
             'slug'				=> 'elementor',
             'version'           => '2.0.11',
